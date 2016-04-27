@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>HisKingdom</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/styles.css" rel="stylesheet">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="grey-banner">
+      <div class="container masthead">
+        <img id="leftLogo" class="top-img">
+        <span class='full-browser-header'>Sign up</span>
+        <a href="index.html"><img class="top-img top-img-right" src="css/images/his_kingdom.png"></img></a>
+      </div>
+    </div>
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container">
+      <h3>Welcome To HisKingdom!</h3>
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" class="form-control" id="name" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Email:</label>
+        <input type="email" class="form-control" id="email">
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone Number:</label>
+        <input type="tel" class="form-control" id="phone">
+      </div>
+      <div class="form-group">
+        <label for="primaryChurchOrg">Primary Church Organization:</label><br>
+        <select id="primaryChurchOrg"></select>
+      </div>
+      <div id="form-group">
+        <label>Skills List:</label><div id="skillsHTML">&nbsp;</div>
+        <input id="skillIds" type="hidden">
+        <button type="button" class="btn btn-default" id="assignSkill">Add skills here</button>
+      </div>
+      <div class="form-group" id="passwordChange">
+        <h4>Set a password</h4>
+        <label>Password must be at least 8 characters and contain all of the following: lowercase letter, uppercase letter, number, special character (!@#$%?) </label>
+          <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" class="form-control" id="password">
+          </div>
+          <div class="form-group">
+            <label for="passwordCheck">Password Again:</label>
+            <input type="password" class="form-control" id="passwordCheck">
+          </div>
+        <div class="form-group">
+          <label id="modalPassValidation" for="userSubmit"></label><br>
+          <label><input type="checkbox" id="termsChecked">I accept these <a target="_blank" href="terms.pdf">Terms and Conditions</a></label><br>
+          <button  id="userSubmit" class="btn">Create Account</button>
+        </div>
+     </div>
+    </div><!-- /.container -->
+
+
+ <!-- Modal -->
+      <div class="modal fade" id="skillModal" tabindex="-1" role="dialog" aria-labelledby="myModal3Label" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <!--<div class="modal-header">
+              <h4 class="modal-title" id="myModal3Label">Create a task.</h4>
+            </div>-->
+
+            <div class="modal-body" id="skillModalBody">
+              <div id="skillBox" class="skillBox"></div>
+              <div id="skillChecklists"></div>
+              <div id="skillLoadingText"></div>
+            </div>
+            
+           <div class="modal-footer" id="myModal3Footer">
+            <button type="button" class="btn btn-default" id="addSkills">Add Skills</button>
+            <button type="button" class="btn btn-default" id="closeSkills" data-dismiss="modal">Close Skills</button>
+            <button type="button" class="btn btn-default" data-dismiss="modal" id="cancelSkills">Cancel</button>
+          </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/sha512.js"></script>
+    <script src="js/chub-account.js"></script>
+    <script src="js/skillModal.js"></script>
+  </body>
+</html>

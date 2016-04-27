@@ -1,0 +1,33 @@
+
+{
+    "statements":{
+        "hobbyOutdoors":"true",
+        "hobbyHistoryBuffs":"false",
+        "hobbySharpenTheMind":"false",
+        "hobbyCraftersArtists":"false",
+        "hobbyEntrepreneur":"false",
+        "hobbyScienceAndNature":"false",
+        "hobbySocial":"false",
+        "hobbyMotorsports":"false",
+        "hobbyCollectors":"false",
+        "hobbyAdventureSeekers":"false",
+        "hobbyStressRelief":"true",
+        "hobbyMusicLover":"true",
+        "hobbyKidsFamily":"true",
+        "hobbySportsFitness":"true",
+        "password":"2602e10a78a4541580a062869d40cde117b163e1c268b1993862c4a2fe6d88dba463c703c78dbba84e3f0c2546b96d29992d125c12c3529ef78577cfcbbae481",
+        "hasUpdatedPassword":"2015-06-23T05:20:37.147Z",
+        "priorityRank":"Meeting Time;Meeting Distance;Group Dynamic",
+        "preferences":"userLikes",
+        "bday":"1901-01-01T05:45:12.0Z",
+        "organization-name":"chub",
+        "email":"scott@scottstreit.com",
+        "tel":"123-456-7890",
+        "fn":"Scott",
+        "memberOf":[
+        ],
+        "role":[
+            "admin"
+        ]
+    }
+}

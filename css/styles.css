@@ -1,0 +1,413 @@
+
+body{
+    font-size:16px;
+}
+
+#prospectiveMembersList, #addedMembersList {
+    font-size:10px;
+}
+
+.cursive{
+    font-family: 'Playball',cursive;
+}
+
+a {
+    color:#6BCDEA;
+}
+a:hover, a:focus{
+    color:#277084;
+}
+
+.modal-input{
+    width:100%;
+}
+
+.table td{
+    max-width:120px;
+}
+
+.predictTable{
+    border: 3px solid black;
+}
+
+.predictTable td,.predictTable th{
+    padding-right:10px;
+    padding-left:10px;
+    border-top:3px solid black;
+    max-width:90px;
+}
+
+.checkbox label{
+    display:inline;
+}
+
+#chart{
+    color:black;
+}
+
+.predictTable tr.altRow > td, th.altHeaders{
+    text-align:center;
+}
+/*
+.predictTable tr > td{
+    background:#EEE390;
+    color:black;
+}
+.predictTable tr.altRow > td{
+    background:#F6C943;
+}
+
+.predictTable a{
+    color:#277084;
+}
+
+.predictTable a:hover, .predictTable a:focus{
+    color:#6BCDEA;
+}
+*/
+
+
+
+.dropdown-menu > li > a > .checkbox{
+    margin:0px;
+}
+
+.starter-template {
+    padding: 40px 15px;
+    text-align: center;
+}
+
+
+
+.btn {
+    color: #000000;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #277084;
+    background-color:#277084;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, 
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus{
+    color:#6BCDEA;
+}
+
+.navbar-inverse .navbar-toggle{
+    border-color:#6BCDEA;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{
+    background-color:#6BCDEA;
+}
+
+.navbar-inverse{
+    background-color:#277084;
+}
+
+.searchableLocation{
+    width:300px;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav
+ > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus
+.navbar-inverse{
+    background-color:#6BCDEA;
+}
+
+.navbar-inverse .navbar-nav > .open > a, 
+.navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color:#222222;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav >li > a:focus{
+    color:#6BCDEA;
+}
+
+select{
+    color:#000000;
+}
+
+tspan{
+    fill:white;
+}
+
+
+
+.progress-bar{
+    float:none;
+    color:black;
+    font-size:20px !important;
+    line-height:20px !important;
+}
+
+.progress-bar{
+    background-color:#6BCDEA;
+}
+
+#map { height: 500px; }
+
+.btn {
+    background:#d0d0d0;
+}
+
+.in-calendar {
+    
+    /*max-length:2;
+    width:30px;*/
+}
+
+.county, .district,.church-org{
+    min-width:100px;
+}
+
+#progress-bar{
+    line-height:20px !important;
+    color:black;
+}
+
+.progress{
+    height:20px !important;
+}
+#priorityTable {
+    border-spacing: collapse;
+    border-spacing: 0;
+}
+
+#priorityTable {
+    width: 200px;
+    height: 25px;
+    text-align:center;
+}
+
+.btn-default{
+    color:none;
+}
+
+
+#priorityTable tr.border_bottom td {
+  border-bottom:1pt solid grey;
+    background:#d0d0d0;
+}
+
+
+
+.navbar-brand{
+    padding: 15px 27px;
+    display: block;
+}
+
+.navbar-toggle{
+    float:left;
+    margin-left:20px;
+}
+
+.begin-img{
+    height:60px;
+    vertical-align: middle;
+}
+
+.top-img{
+    float:left;
+    padding-top:5px;
+    height:50px;
+    vertical-align: middle;
+}
+
+.top-img-right{
+    float:right;
+    height:50px;
+    display:none;
+    vertical-align: middle;
+}
+
+.grey-banner{
+    background-color:#F0F0F0;
+}
+
+.masthead {
+    color:#000000;
+    font-size:25px;
+    text-align:center;
+    vertical-align:50%;
+    line-height:50px;
+    background-repeat:no-repeat;
+    background-size:150px;
+    height:60px;
+    padding:0px;
+}
+
+.join-logo {
+    width:25%;
+}
+.page-logo{
+    width:100px;
+    padding-right:10px;
+}
+
+.full-browser-header{
+    display:none;
+}
+
+
+.front-img{
+    height:200px;
+}
+
+@media (min-width: 768px) {
+    .masthead{
+        font-size:50px;
+    }
+    .navbar-brand{
+        display:none;
+    }
+}
+
+
+@media (min-width: 500px) {
+    .nav-tabs{
+        margin-top:10px;
+    }
+
+    #prospectiveMembersList, #addedMembersList {
+        font-size:16px;
+    }
+    .front-img{
+        height:500px;
+    }
+    .top-img{
+        height:50px;
+    }
+    .top-img-right{
+        display:inline-block;
+    }
+    .full-browser-header{
+        display:inline-block;
+    }
+    .page-logo{
+    width:100px;
+    }
+
+}
+@media (max-width:500px){
+    .county, .district,.church-org{
+        min-width:75px;
+        width:50px;
+    }
+    .container{
+        padding-left:1px;
+    }
+}
+
+
+.btn-primary {
+    color: #a0a0a0;
+    width: 120px;
+    border-radius:0px;
+    font-weight:normal;
+}
+
+/*.btn-group-standard-width {
+    width: 200px;
+}*/
+
+.btn-group-hobby {
+    width: 250px;
+}
+
+.btn-group .btn + .btn, .btn-group .btn + .btn-group, .btn-group .btn-group + .btn, .btn-group .btn-group + .btn-group  {
+    margin-left: 0px;
+}
+
+#oneOrOther .active {
+    font-weight:bold;
+}
+
+.btn:hover{
+    background-color: #a0a0a0;
+}
+
+
+.infobox{
+    background: #F0F0F0;
+    color:black;
+    border: 1px solid #444855;
+    border-radius: 7px 7px 7px 7px;
+    -moz-border-radius: 7px 7px 7px 7px;
+   padding:5px 25px 5px 25px;
+   margin:10px;
+}
+
+.save-button{
+    padding:5px 5px 25px;
+    margin:10px;
+}
+
+#numKids, #yearBorn {
+    width:80px;
+}
+
+#hobbyCategory, button.hobby {
+    width:300px;
+}
+
+.main-container {
+    padding-bottom:100px;
+}
+
+footer {
+    position: fixed;
+    height:20px;
+    bottom: 0;
+    /*width: 100%;*/
+}
+
+.groupTable{
+    text-align:left;
+}
+
+.meetingTimeLabel{
+    width:100px;
+}
+
+.skillBox{
+    overflow:auto;
+}
+.skillButton{
+    width:100%;
+    height:100px;
+}
+.skillButtonCol{
+    padding:0px;
+}
+
+.picker__input,.date-field {
+    width:100px;
+    float:left;
+    height:30px;
+    padding:2px;
+    color:black;
+    font-size:16px;
+}
+
+.date-label{
+    float:left; 
+    margin-bottom: 0px;
+}
+
+.pac-container {
+  z-index: 1050 !important;
+}
+
+.go-button{
+    height:45px;
+    border:0px;
+}
+
+.page-name{
+    border:none;
+    font-size:26px;
+}
+.page-name:hover, .page-name:focus{
+    background-color:#277084!important;
+    color:#ffffff!important;
+}

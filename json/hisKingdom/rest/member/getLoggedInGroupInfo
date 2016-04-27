@@ -1,0 +1,110 @@
+
+{
+    "statements":{
+        "hasPredMemberComInterests":"beboyer1@gmail.com",
+        "hasPredMemberDivFamily":"rgraham750@gmail.com",
+        "hasPredMemberDivInterests":"ortmanndd@comcast.net",
+        "hasPredMemberDivJourney":"jeremyaleshire@aol.com",
+        "hasPredMemberComFamily":"scottareese@aol.com",
+        "hasPredMemberTime":"scottareese@aol.com",
+        "hasPredMemberCounty":"lonniemarsh24@gmail.com",
+        "hasPredMemberDistrict":"lonniemarsh24@gmail.com",
+        "hasPredMemberDayTime":"eddie.labar2015@gmail.com",
+        "hasPredMemberDay":"eddie.labar2015@gmail.com",
+        "groupGivesAlertToPerson":"stephen.suffian@gmail.com",
+        "groupKidGenderAgeGroup":"Female,Elementary",
+        "groupKidGenderAgeGroupNumber":"Female,Elementary,1",
+        "updatedBy":"tyrogers@ecrossroads.org",
+        "groupDetailsBigPicture":"Big Picture",
+        "groupSpiritualJourney":"Elder-Parent",
+        "groupKidGender":"Male",
+        "groupKidAgeGroup":"Middle",
+        "groupBooksMovies":"Movies",
+        "groupOutdoorIndoor":"Outdoors",
+        "groupCrowdQuietTime":"Crowd",
+        "groupPetsNoPets":"Pets",
+        "groupPlanItDoIt":"Do it",
+        "groupOpen":"true",
+        "groupApproval":"true",
+        "groupHobbyMotorsports":"true",
+        "groupHobbyStressRelief":"true",
+        "groupHobbySportsFitness":"true",
+        "groupStateCounty":"IN,Miami",
+        "groupHobbySocial":"true",
+        "groupHasPrimaryChurchOrg":"Crossroads Community Church: Kokomo, IN",
+        "groupHobbyHistoryBuffs":"true",
+        "groupDescription":"Purpose: To learn the parable and be able to retell it.  Then the 6 follow up questions will help us to apply it to our lives.<br />Location: Crossroads Community Church<br />Start Time: 6:00pm<br />End Time: 7:30pm<br />Childcare: offered",
+        "groupMeetingDayPreference":"W",
+        "groupHobbyCollectors":"true",
+        "groupMeetingPreference":"W,Night",
+        "groupHobbySharpenTheMind":"true",
+        "groupHobbyOutdoors":"true",
+        "groupAge":"Mixed",
+        "groupHobbyMusicLover":"true",
+        "groupName":"Ty Rogers Storying Group",
+        "groupHobbyKidsFamily":"true",
+        "groupGender":"Male",
+        "groupHobbyAdventureSeekers":"true",
+        "groupState":"IN",
+        "groupMeetingTimePreference":"Night",
+        "groupHobbyCraftersArtists":"true",
+        "ledBy":"tyrogers@ecrossroads.org",
+        "groupGroupType":"Discipleship",
+        "groupHobbyScienceAndNature":"true",
+        "groupHobbyEntrepreneur":"true",
+        "groupStateCountyDistrict":[
+            "IN,Miami,Peru Community Schools",
+            "IN,Cass,Southeastern School Corp",
+            "IN,Grant,Dr Robert H Faulkner Academy",
+            "IN,Miami,Maconaquah School Corp",
+            "IN,Tipton,Tipton Community School Corp",
+            "IN,Howard,Kokomo School Corporation",
+            "IN,Howard,Taylor Community School Corp",
+            "IN,Grant,Mississinewa Community School Corp",
+            "IN,Cass,Logansport Community Sch Corp",
+            "IN,Howard,Northwestern School Corp",
+            "IN,Grant,Eastbrook Community Sch Corp",
+            "IN,Miami,North Miami Community Schools",
+            "IN,Howard,Eastern Howard School Corp",
+            "IN,Cass,Pioneer Regional School Corp",
+            "IN,Grant,Marion Community Schools",
+            "IN,Miami,Oak Hill United School Corp",
+            "IN,Grant,Madison-Grant United Sch Corp",
+            "IN,Tipton,Tri-Central Community Schools",
+            "IN,Howard,Western School Corp"
+        ],
+        "groupHasChurchOrg":[
+            "Oakbrook Church: Kokomo, IN",
+            "First Church of the Nazarene: Kokomo, IN",
+            "Morning Star Church: Kokomo, IN",
+            "Rock Prairie Baptist Church: Tipton, IN",
+            "Fairfield Christian Church: Kokomo, IN",
+            "Chapel Hill Christian Church: Kokomo, IN",
+            "South Creek Church of God: Kokomo, IN"
+        ],
+        "requestedByPerson":[
+            {
+                "name":"Stephen",
+                "email":"stephen.suffian@gmail.com"
+            }
+        ],
+        "hasAsMember":[
+            {
+                "name":"Jeff Smith",
+                "email":"jdfa777@yahoo.com"
+            },
+            {
+                "name":"Matt Carrell",
+                "email":"mcarrellmc@gmail.com"
+            },
+            {
+                "name":"Brian Foreit",
+                "email":"brianforeit3@gmail.com"
+            },
+            {
+                "name":"Ty Rogers",
+                "email":"tyrogers@ecrossroads.org"
+            }
+        ]
+    }
+}

@@ -1,0 +1,14 @@
+
+{
+    "statements":{
+        "groupGroupType":"Prayer",
+        "groupSpiritualJourney":"Seeking",
+        "groupName":"group2",
+        "groupCountyDistrict":"Allen,East Allen County Schools",
+        "groupMeetingPreference":"T,Morn",
+        "hasAsMember":[
+            "stephen@gmail.com",
+            "kevin@kevin.com"
+        ]
+    }
+}

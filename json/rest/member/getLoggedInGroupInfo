@@ -1,0 +1,72 @@
+
+{
+    "statements":{
+        "groupHasTask":"14614433673482545",
+        "groupExpired":"false",
+        "groupOpen":"true",
+        "groupApproval":"true",
+        "groupHobbyCollectors":"false",
+        "groupHobbyMotorsports":"false",
+        "groupHobbyEntrepreneur":"false",
+        "groupHobbySocial":"false",
+        "groupHobbyAdventureSeekers":"false",
+        "groupHobbyScienceAndNature":"false",
+        "groupHobbyHistoryBuffs":"false",
+        "groupHobbyCraftersArtists":"false",
+        "groupHobbySharpenTheMind":"false",
+        "groupHobbyOutdoors":"false",
+        "groupHobbySportsFitness":"false",
+        "groupHobbyKidsFamily":"false",
+        "groupHobbyStressRelief":"false",
+        "groupHobbyMusicLover":"false",
+        "groupHasPrimaryChurchOrg":{
+            "orgName":"Test Church: Philadelphia, PA",
+            "id":"14534920750481547"
+        },
+        "groupChildcare":"No",
+        "groupAge":"Mixed",
+        "groupGender":"Mixed",
+        "groupUsesInterests":"false",
+        "distance":2388.2049191862675,
+        "groupLocationLng":"-118.2436849",
+        "groupLocationLat":"34.0522342",
+        "groupLocationAddress":"Los Angeles, CA, USA",
+        "groupLocation":"Los Angeles",
+        "groupRepeatsSummaryText":"Calendar Summary: Does not repeat",
+        "groupRepeats":"false",
+        "groupEndTime":"18:00",
+        "groupStartTime":"17:00",
+        "groupStartDate":"04/23/2016",
+        "groupGroupType":"Service",
+        "groupPurpose":"to make the woods cleaner",
+        "groupCategory":"project",
+        "groupName":"Cleaning the woods",
+        "nextInMillis":-1,
+        "daysOfWeek":"7",
+        "groupHasChurchOrg":[
+        ],
+        "groupHasSkills":[
+        ],
+        "id":"14614403428159424",
+        "requestedByPerson":[
+        ],
+        "hasAsMember":[
+            {
+                "name":"Stephen",
+                "gender":"Male",
+                "age":"45-54",
+                "email":"stephen.suffian@gmail.com",
+                "id":"1454544060783"
+            }
+        ],
+        "ledBy":[
+            {
+                "name":"Stephen",
+                "email":"stephen.suffian@gmail.com",
+                "gender":"Male",
+                "age":"45-54",
+                "id":"1454544060783"
+            }
+        ]
+    }
+}

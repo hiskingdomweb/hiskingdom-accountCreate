@@ -1,0 +1,317 @@
+{
+  "IN": {
+    "Starke": [
+      "Knox Community School Corp",
+      "North Judson-San Pierre School Corp",
+      "Oregon-Davis School Corp"
+    ],
+    "Cass": [
+      "Logansport Community School Corp","Pioneer Regional School Corp","Southeastern School Corp"
+    ],
+    "Perry": [
+      "Cannelton City Schools",
+      "Perry Central Com Schools Corp",
+      "Tell City-Troy Twp School Corp"
+    ],
+    "Tippecanoe": [
+      "Lafayette School Corp",
+      "Tippecanoe School Corp",
+      "West Lafayette Com School Corp"
+    ],
+    "Jay": [
+      "Jay School Corp"
+    ],
+    "Delaware": [
+      "Cowan Community School Corp",
+      "Daleville Community Schools",
+      "Delaware Community School Corp",
+      "Liberty-Perry Com School Corp",
+      "Muncie Community Schools",
+      "Wes-Del Community Schools",
+      "Yorktown Community Schools"
+    ],
+    "Lake": [
+      "Crown Point Community Sch Corp",
+      "East Chicago Lighthouse Charter",
+      "East Chicago Urban Enterprise Acad",
+      "Edison Learning Roosevelt",
+      "Gary Community School Corp",
+      "Gary Lighthouse Charter School",
+      "Gary Middle College",
+      "Griffith Public Schools",
+      "Hammond Academy of Science & Tech",
+      "Hanover Community School Corp",
+      "Indiana Cyber Charter Sch Inc",
+      "Lake Central School Corp",
+      "Lake Ridge Schools",
+      "Lake Station Community Schools",
+      "Merrillville Community School",
+      "Northwest Indiana Spec Ed Coop",
+      "River Forest Community Sch Corp",
+      "School City of East Chicago",
+      "School City of Hammond",
+      "School City of Hobart",
+      "School Town of Highland",
+      "School Town of Munster",
+      "Thea Bowman Leadership Academy",
+      "Tri-Creek School Corporation",
+      "Whiting School City"
+    ],
+    "Hendricks": [
+      "Avon Community School Corp",
+      "Brownsburg Community Sch Corp",
+      "Danville Community School Corp",
+      "Mill Creek Community Sch Corp",
+      "North West Hendricks Schools",
+      "Plainfield Community Sch Corp"
+    ],
+    "Wayne": [
+      "Centerville-Abington Com Schs",
+      "Nettle Creek School Corp",
+      "Northeastern Wayne Schools",
+      "Richmond Community Schools",
+      "The Excel Center - Richmond",
+      "Western Wayne Schools"
+    ],
+    "Fountain": [
+      "Attica Consolidated Sch Corp",
+      "Covington Community Sch Corp",
+      "Southeast Fountain School Corp"
+    ],
+    "Saint": [
+      "NA"
+    ],
+    "Tipton": [
+      "Tipton Community","Tri-central Community"
+    ],
+    "Orange": [
+      "Lost River Career Cooperative",
+      "Orleans Community Schools",
+      "Paoli Community School Corp",
+      "Springs Valley Com School Corp"
+    ],
+    "DeKalb": [
+      "NA"
+    ],
+    "Howard": [
+      "Eastern Howard","Northwestern","Taylor Community","Western School","Kokomo"
+    ],
+    "Porter": [
+      "Discovery Charter School",
+      "Duneland School Corporation",
+      "East Porter County School Corp",
+      "M S D Boone Township",
+      "Neighbors' New Vistas High School",
+      "Portage Township Schools",
+      "Porter County Education Services",
+      "Porter Township School Corp",
+      "Union Township School Corp",
+      "Valparaiso Community Schools"
+    ],
+    "Putnam": [
+      "Area 30 Career Center Edu Inter",
+      "Cloverdale Community Schools",
+      "Greencastle Community Sch Corp",
+      "North Putnam Community Schools",
+      "Old National Trail Spec Serv Coop",
+      "South Putnam Community Schools"
+    ],
+    "Noble": [
+      "Central Noble Com School Corp",
+      "East Noble School Corp",
+      "West Noble School Corporation"
+    ],
+    "Elkhart": [
+      "Baugo Community Schools",
+      "Concord Community Schools",
+      "Elkhart Community Schools",
+      "Fairfield Community Schools",
+      "Goshen Community Schools",
+      "Middlebury Community Schools",
+      "Wa-Nee Community Schools"
+    ],
+    "Blackford": [
+      "Blackford County Schools"
+    ],
+    "Fayette": [
+      "Fayette County School Corp"
+    ],
+    "Wells": [
+      "M S D Bluffton-Harrison",
+      "Northern Wells Com Schools",
+      "Southern Wells Com Schools"
+    ],
+    "Floyd": [
+      "Community Montessori Inc",
+      "New Albany-Floyd Co Con Sch"
+    ],
+    "Hamilton": [
+      "Carmel Clay Schools",
+      "Hamilton Heights School Corp",
+      "Hamilton Southeastern Schools",
+      "Noblesville Schools",
+      "Options Charter Sch - Noblesville",
+      "Options Charter School - Carmel",
+      "Sheridan Community Schools",
+      "Westfield-Washington Schools"
+    ],
+    "Dearborn": [
+      "Lawrenceburg Com School Corp",
+      "South Dearborn Com School Corp",
+      "Sunman-Dearborn Com Sch Corp"
+    ],
+    "Henry": [
+      "Blue River Valley Schools",
+      "C A Beard Memorial School Corp",
+      "New Castle Community Sch Corp",
+      "Shenandoah School Corporation",
+      "South Henry School Corp"
+    ],
+    "Grant": [
+      "Oak Hill United School Corp",
+      "Eastbrook Community Sch Corp",
+      "Madison-Grant United Sch Corp",
+      "Marion Community Schools",
+      "Mississinewa Community School Corp"
+    ],
+    "Bartholomew": [
+      "Bartholomew Con School Corp",
+      "Flat Rock-Hawcreek School Corp"
+    ],
+    "Kosciusko": [
+      "Tippecanoe Valley School Corp",
+      "Warsaw Community Schools",
+      "Wawasee Community School Corp"
+    ],
+    "Rush": [
+      "Rush County Schools"
+    ],
+    "Adams": [
+      "Adams Central Community Schools",
+      "North Adams Community Schools",
+      "South Adams Schools"
+    ],
+    "Johnson": [
+      "Center Grove Com Sch Corp",
+      "Central Nine Career Center",
+      "Clark-Pleasant Com School Corp",
+      "Edinburgh Community Sch Corp",
+      "Franklin Community School Corp",
+      "Greenwood Community Sch Corp",
+      "Nineveh-Hensley-Jackson United",
+      "Special Services - Johnson Co"
+    ],
+    "Miami": [
+      "Maconaquah School Corp",
+      "North Miami Community Schools",
+      "Oak Hill United School Corp",
+      "Peru Community Schools"
+    ],
+    "Hancock": [
+      "Eastern Hancock Co Com Sch Corp",
+      "Geist Montessori Academy",
+      "Greenfield-Central Com Schools",
+      "Hancock Madison Shelby Ed Services",
+      "Mt Vernon Community Sch Corp",
+      "Southern Hancock Co Com Sch Corp"
+    ],
+    "Ripley": [
+      "Batesville Community Sch Corp",
+      "Jac-Cen-Del Community Sch Corp",
+      "Milan Community Schools",
+      "Ripley-Ohio-Dearborn Sp Ed Coop",
+      "South Ripley Com Sch Corp",
+      "Southeastern Career Center"
+    ],
+    "Steuben": [
+      "Fremont Community Schools",
+      "Hamilton Community Schools",
+      "M S D Steuben County"
+    ],
+    "Morgan": [
+      "Eminence Community School Corp",
+      "M S D Martinsville Schools",
+      "Monroe-Gregg School District",
+      "Mooresville Con School Corp"
+    ],
+    "LaGrange": [
+      "Lakeland School Corporation",
+      "Prairie Heights Com Sch Corp",
+      "Westview School Corporation"
+    ],
+    "Vigo": [
+      "Covered Bridge Spec Ed Dist",
+      "Vigo County School Corp"
+    ],
+    "Warrick": [
+      "Warrick County School Corp"
+    ],
+    "Fulton": [
+      "Caston School Corporation",
+      "Rochester Community Sch Corp"
+    ],
+    "Vanderburgh": [
+      "Evansville Vanderburgh Sch Corp",
+      "Joshua Academy",
+      "Signature School Inc"
+    ],
+    "Madison": [
+      "Alexandria Com School Corp",
+      "Anderson Community School Corp",
+      "Anderson Preparatory Academy",
+      "Elwood Community School Corp",
+      "Frankton-Lapel Community Schs",
+      "South Madison Com Sch Corp",
+      "The Excel Center - Anderson"
+    ],
+    "Clark": [
+      "Clarksville Com School Corp",
+      "Greater Clark County Schools",
+      "Rock Creek Community Academy",
+      "West Clark Community Schools"
+    ],
+    "Marshall": [
+      "Argos Community Schools",
+      "Bremen Public Schools",
+      "Culver Community Schools Corp",
+      "Plymouth Community School Corp",
+      "Triton School Corporation"
+    ],
+    "Newton": [
+      "North Newton School Corp",
+      "South Newton School Corp"
+    ],
+    "Washington": [
+      "East Washington School Corp",
+      "Salem Community Schools",
+      "South Central Area Special Ed",
+      "West Washington School Corp"
+    ],
+    "Decatur": [
+      "Decatur County Com Schools",
+      "Greensburg Community Schools"
+    ],
+    "Boone": [
+      "Lebanon Community School Corp",
+      "Western Boone Co Com Sch Dist",
+      "Zionsville Community Schools"
+    ],
+    "Allen": [
+      "East Allen County Schools",
+      "Fort Wayne Community Schools",
+      "M S D Southwest Allen County Schls",
+      "Northwest Allen County Schools",
+      "Smith Academy for Excellence",
+      "Thurgood Marshall Leadership Acad",
+      "Timothy L Johnson Academy"
+    ],
+    "Huntington": [
+      "Huntington Co Com Sch Corp"
+    ],
+    "Monroe": [
+      "Monroe County Com Sch Corp",
+      "Richland-Bean Blossom C S C",
+      "The Bloomington Project School"
+    ]
+  }
+}

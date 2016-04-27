@@ -1,0 +1,173 @@
+
+{
+    "groups":[
+    ],
+    "events":[
+        {
+            "groupHasPrediction":"http://www.compscii.com/ontologies/0.1/GroupInterest.owl#Prediction14607595668935566",
+            "groupHasTask":"1460749410900877",
+            "updatedBy":"1454544060783",
+            "revokedMembershipOf":"14607441136931678",
+            "groupExpired":"false",
+            "groupOpen":"true",
+            "groupApproval":"true",
+            "groupHobbyCollectors":"false",
+            "groupHobbyMotorsports":"false",
+            "groupHobbyEntrepreneur":"false",
+            "groupHobbySocial":"false",
+            "groupHobbyAdventureSeekers":"false",
+            "groupHobbyScienceAndNature":"false",
+            "groupHobbyHistoryBuffs":"false",
+            "groupHobbyCraftersArtists":"false",
+            "groupHobbySharpenTheMind":"false",
+            "groupHobbyOutdoors":"false",
+            "groupHobbySportsFitness":"false",
+            "groupHobbyKidsFamily":"false",
+            "groupHobbyStressRelief":"false",
+            "groupHobbyMusicLover":"false",
+            "groupHasPrimaryChurchOrg":{
+                "orgName":"Test Church: Philadelphia, PA",
+                "id":"14534920750481547"
+            },
+            "groupChildcare":"No",
+            "groupAge":"Mixed",
+            "groupGender":"Mixed",
+            "groupUsesInterests":"false",
+            "distance":1435.1535103239296,
+            "groupLocationLng":"-97.74306079999997",
+            "groupLocationLat":"30.267153",
+            "groupLocationAddress":"Austin, TX, USA",
+            "groupLocation":"Austin",
+            "groupRepeatsSummaryText":"Calendar Summary: Weekly on Saturday, ongoing",
+            "groupRepeats":"false",
+            "groupEndTime":"13:00",
+            "groupStartTime":"10:00",
+            "groupStartDate":"05/07/2016",
+            "groupGroupType":"Service",
+            "groupPurpose":"Cleaning the highway! Going to be the good times.",
+            "groupCategory":"event",
+            "groupName":"Project 1: Highway Cleanup",
+            "nextInMillis":-1,
+            "daysOfWeek":"7",
+            "score":"0.12092302510934198",
+            "prediction":{
+                "score":"0.12092302510934198",
+                "nextDate":"-1.0",
+                "groupType":"true",
+                "distance":"1435.1535103239296"
+            },
+            "groupHasChurchOrg":[
+            ],
+            "groupHasSkills":[
+            ],
+            "id":"14607444557816961",
+            "ledBy":[
+                {
+                    "name":"Jim Groupleader",
+                    "email":"stephensuffian+groupleader@gmail.com",
+                    "gender":"ERROR",
+                    "age":"ERROR",
+                    "id":"14607441136931678"
+                }
+            ]
+        }
+    ],
+    "tasks":[
+        {
+            "groupHasPrediction":"http://www.compscii.com/ontologies/0.1/GroupInterest.owl#Prediction14607595668665313",
+            "groupApproval":"true",
+            "groupOpen":"true",
+            "groupHasPrimaryChurchOrg":{
+                "orgName":"Test Church: Philadelphia, PA",
+                "id":"14534920750481547"
+            },
+            "groupExpired":"false",
+            "distance":1297.411105674187,
+            "groupLocationLng":"-96.79698789999998",
+            "groupLocationLat":"32.7766642",
+            "groupLocationAddress":"Dallas, TX, USA",
+            "groupLocation":"Dallas",
+            "groupRepeatsSummaryText":"Calendar Summary: Does not repeat",
+            "groupRepeatsFrequency":"Weekly",
+            "groupRepeats":"false",
+            "groupEndTime":"18:00",
+            "groupStartTime":"17:00",
+            "groupStartDate":"05/20/2016",
+            "groupName":"Picking up trash",
+            "groupCategory":"task",
+            "groupMaxPeople":"4",
+            "groupAge":"Mixed",
+            "groupGender":"Mixed",
+            "taskHasGroup":"14607444557816961",
+            "nextInMillis":-1,
+            "daysOfWeek":"6",
+            "score":"0.0",
+            "prediction":{
+                "score":"0.0",
+                "nextDate":"-1.0",
+                "groupType":"false",
+                "distance":"1297.411105674187"
+            },
+            "groupHasChurchOrg":[
+            ],
+            "groupHasSkills":[
+                {
+                    "skillName":"picking things up",
+                    "skillCategory":"General Labor",
+                    "id":"14607459168844132"
+                },
+                {
+                    "skillName":"general stuff",
+                    "skillCategory":"General Labor",
+                    "id":"1460750766661724"
+                }
+            ],
+            "id":"1460749410900877",
+            "ledBy":[
+            ]
+        },
+        {
+            "groupHasPrediction":"http://www.compscii.com/ontologies/0.1/GroupInterest.owl#Prediction14607595668797872",
+            "groupApproval":"true",
+            "groupOpen":"true",
+            "groupHasPrimaryChurchOrg":{
+                "orgName":"Test Church: Philadelphia, PA",
+                "id":"14534920750481547"
+            },
+            "distance":269.24285234121464,
+            "groupLocationLng":"-71.09415999999999",
+            "groupLocationLat":"42.360091",
+            "groupLocationAddress":"77 Massachusetts Ave, Cambridge, MA 02139, United States",
+            "groupLocation":"Massachusetts Institute of Technology",
+            "groupRepeatsSummaryText":"Calendar Summary: Does not repeat",
+            "groupRepeatsFrequency":"Weekly",
+            "groupRepeats":"false",
+            "groupExpired":"false",
+            "groupEndTime":"18:00",
+            "groupStartTime":"17:00",
+            "groupStartDate":"04/15/2016",
+            "groupName":"optiminizing trash pickup",
+            "groupCategory":"task",
+            "groupMaxPeople":"1",
+            "groupAge":"Mixed",
+            "groupGender":"Mixed",
+            "taskHasGroup":"14607444557816961",
+            "nextInMillis":-1,
+            "daysOfWeek":"6",
+            "score":"0.0",
+            "prediction":{
+                "score":"0.0",
+                "nextDate":"-1.0",
+                "groupType":"false",
+                "distance":"269.24285234121464"
+            },
+            "groupHasChurchOrg":[
+            ],
+            "groupHasSkills":[
+            ],
+            "id":"14607508598915054",
+            "ledBy":[
+            ]
+        }
+    ]
+}

@@ -1,0 +1,86 @@
+
+{
+    "groups":[
+    ],
+    "events":[
+        {
+            "groupHasPrediction":"http://www.compscii.com/ontologies/0.1/GroupInterest.owl#Prediction14594834370985649",
+            "groupNextStartDate":"04/06/2016",
+            "groupExpired":"false",
+            "groupApproval":"true",
+            "groupHobbyCollectors":"false",
+            "groupHobbyMotorsports":"false",
+            "groupHobbyEntrepreneur":"false",
+            "groupHobbySocial":"false",
+            "groupHobbyAdventureSeekers":"false",
+            "groupHobbyScienceAndNature":"false",
+            "groupHobbyHistoryBuffs":"false",
+            "groupHobbyCraftersArtists":"false",
+            "groupHobbySharpenTheMind":"false",
+            "groupHobbyOutdoors":"false",
+            "groupHobbySportsFitness":"false",
+            "groupHobbyKidsFamily":"false",
+            "groupHobbyStressRelief":"false",
+            "groupHobbyMusicLover":"false",
+            "groupHasPrimaryChurchOrg":{
+                "orgName":"Test Church: Philadelphia, PA",
+                "id":"14534920750481547"
+            },
+            "groupChildcare":"No",
+            "groupAge":"Mixed",
+            "groupGender":"Mixed",
+            "groupUsesInterests":"false",
+            "distance":2516.157875088674,
+            "groupLocationLng":"-122.41874000000001",
+            "groupLocationLat":"37.802139",
+            "groupLocationAddress":"Lombard St, San Francisco, CA 94133, United States",
+            "groupLocation":"Lombard Street",
+            "groupRepeatsSummaryText":"Calendar Summary: Weekly on Wednesday, ongoing",
+            "groupRepeatsDaysOfWeek":"W",
+            "groupRepeatsFrequency":"Weekly",
+            "groupRepeats":"true",
+            "groupEndTime":"21:00",
+            "groupStartTime":"20:00",
+            "groupStartDate":"02/24/2016",
+            "groupGroupType":"Bible Study",
+            "groupPurpose":"Purpose",
+            "groupCategory":"event",
+            "groupName":"Bi-weekly test",
+            "groupHasTask":"14592226589753968",
+            "groupHasMeeting":"http://www.compscii.com/ontologies/0.1/GroupInterest.owl#Meeting14563774774158877-03.15.2016",
+            "updatedBy":"1454544060783",
+            "groupHasHeader":"14563620009921961",
+            "groupBulletinName":"Bi-weekly test 02/24/2016",
+            "groupBulletinDescription":"Purpose",
+            "revokedMembershipOf":"1454544060786",
+            "groupOpen":"true",
+            "nextInMillis":1460001837188,
+            "daysOfWeek":"4",
+            "score":"0.01894662356963702",
+            "prediction":{
+                "score":"0.01894662356963702",
+                "nextDate":"144.0",
+                "groupType":"true",
+                "distance":"2516.157875088674"
+            },
+            "groupHasChurchOrg":[
+                {
+                    "orgName":"Test Church Boyer",
+                    "id":"14545842516517557"
+                }
+            ],
+            "id":"14563774774158877",
+            "ledBy":[
+                {
+                    "name":"Stephen",
+                    "email":"stephen.suffian+test@gmail.com",
+                    "gender":"ERROR",
+                    "age":"ERROR",
+                    "id":"14549524648469090"
+                }
+            ]
+        }
+    ],
+    "tasks":[
+    ]
+}
