@@ -272,7 +272,8 @@ tspan{
         font-size:16px;
     }
     .front-img{
-        height:500px;
+        height:200px;
+
     }
     .top-img{
         height:50px;
@@ -410,4 +411,10 @@ footer {
 .page-name:hover, .page-name:focus{
     background-color:#277084!important;
     color:#ffffff!important;
+}
+.cnct_srv_grw_imgs_container {
+    width:calc(100% / 3);
+    float:left;
+    text-align:center;
+    margin-bottom:20px;
 }
