@@ -1,8 +1,7 @@
-ipAddress = "123.456.789";
-
+skillsArray = [];
 $(document).ready(function(){
+
     loadSkills();
-    //$.getJSON("http://"+ipAddress+"/rest/accountCreate/listChurchOrgs", function(data){
     $.getJSON('/accountCreate/listChurchOrgs', function(data){
         orgHTML = '<option selected disabled>-</option>';
         $.each(data.statements, function (key,val){
@@ -13,11 +12,11 @@ $(document).ready(function(){
 });
 
 $('#addSkills').click(function(){
-  skills = [];
+  skillsArray = [];
   allSkills = {};
   skillsHTML = "";
   $('.skill:checked').each(function(){
-      skills.push($(this).val());
+      skillsArray.push($(this).val());
       category = $(this).parent().parent().parent().prop("id").replace("Skill","").split(/(?=[A-Z])/).join(' ');
       if(allSkills[category]){
         allSkills[category] = allSkills[category]+"<li>"+$(this).parent().parent().text()+"</li>";
@@ -31,7 +30,7 @@ $('#addSkills').click(function(){
     skillsHTML+=key+"<br><ul>"+val+"</ul>"
   })
   $('#skillsHTML').html(skillsHTML);
-  $('#skillIds').val(skills.toString());
+  $('#skillIds').val(skillsArray.toString());
   $('#skillModal').modal('hide');
 })
 
@@ -66,7 +65,7 @@ function submitNewPassword(){
     passwordCheck = $("#passwordCheck").val()
     validationString = "";
     valid = true;
-    if(skills.length==0){
+    if(skillsArray.length==0){
         validationString+="Please select at least one skill.<br>";
         valid = false;
     }
@@ -118,6 +117,7 @@ function submitNewPassword(){
     $.post("/accountCreate/addUser",
         {name:name,email:email,phone:phone,churchOrg:churchOrg,skills:skills,hash:hash},
         function(data){
+            $('#loginLink').hide();
             $("#statusText").html(data.status);
             $("#passwordChange").hide();
             $("#changedPassword").show();
@@ -126,5 +126,5 @@ function submitNewPassword(){
 }
 
 $("#loginLink").click(function(){
-    window.location.href = "http://"+ipAddress+"/member/index.html?email="+ $('#email').val();
+    window.location.href = "https://hiskingdom.needsgap.com/serveTogether/index.html?email="+ $('#email').val();
 })
