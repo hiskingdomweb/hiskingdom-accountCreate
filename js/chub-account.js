@@ -43,7 +43,6 @@ $('#addSkills').click(function(){
 
 $("#resetButton").click(function(){
     $("#changingPassword").hide();
-    $("#changedPassword").hide();
     $("#passwordChange").show();
     $('#myModalPass').modal({
         keyboard: false,
@@ -130,10 +129,9 @@ function submitNewPassword(){
     $.post("/accountCreate/addUser",
         {name:name,email:email,phone:phone,churchOrg:churchOrg,skills:skills,hash:hash},
         function(data){
-            $('#loginLink').hide();
+            $('#loginLink').show();
             $("#statusText").html(data.status);
             $("#passwordChange").hide();
-            $("#changedPassword").show();
             $("#changingPassword").hide();
     })
 }
