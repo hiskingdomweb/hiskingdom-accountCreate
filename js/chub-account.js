@@ -1,6 +1,11 @@
 skillsArray = [];
 $(document).ready(function(){
-
+    skillsArray = []
+    $("#name").val('');
+    $("#phone").val('');
+    $("#email").val('');
+    $('#primaryChurchOrg').val('');
+    $('#skillIds').val('');
     loadSkills();
     $.getJSON('/accountCreate/listChurchOrgs', function(data){
         orgHTML = '<option selected disabled>-</option>';
@@ -65,6 +70,14 @@ function submitNewPassword(){
     passwordCheck = $("#passwordCheck").val()
     validationString = "";
     valid = true;
+    if(!email || email.length==0){
+        validationString+="Please enter an email address.<br>";
+        valid = false;
+    }
+    if(!phone || phone.length==0){
+        validationString+="Please enter a phone number.<br>";
+        valid = false;
+    }
     if(skillsArray.length==0){
         validationString+="Please select at least one skill.<br>";
         valid = false;
