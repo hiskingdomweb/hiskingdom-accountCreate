@@ -66,6 +66,10 @@ function submitNewPassword(){
     passwordCheck = $("#passwordCheck").val()
     validationString = "";
     valid = true;
+    if(skills.length==0){
+        validationString+="Please select at least one skill.<br>";
+        valid = false;
+    }
     if(password != passwordCheck){
         validationString+="Passwords don't match.<br>";
         valid = false;
