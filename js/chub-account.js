@@ -55,6 +55,7 @@ $('#userSubmit').click(function(){
 
 function submitNewPassword(){
     $('#modalPassValidation').html("");
+    $('#loginLink').hide();
     $('#modalPassValidation').css("color","red");
     name = $("#name").val();
     phone = $("#phone").val();
@@ -103,10 +104,7 @@ function submitNewPassword(){
       whatCanWeDoHTML+= "<li>"+$($(val).parent()).text()+"</li>";
     });
     whatCanWeDoHTML += "</ul>";
-
- 
-    $("#changingPassword").hide();
-    $("#changedPassword").hide();
+    
     $("#passwordChange").show();
     $('#myModalPass').modal({
         keyboard: false,
