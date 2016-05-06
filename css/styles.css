@@ -216,7 +216,7 @@ tspan{
 .top-img-right{
     float:right;
     height:50px;
-    display:none;
+    display:top-img;
     vertical-align: middle;
 }
 
@@ -245,7 +245,7 @@ tspan{
 }
 
 .full-browser-header{
-    display:none;
+    display:inline-block;
 }
 
 
