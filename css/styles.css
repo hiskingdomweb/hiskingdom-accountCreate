@@ -258,10 +258,10 @@ tspan{
 @media (min-width: 500px) {
     .grey-banner{
       background-color:#F0F0F0;
-        height:60px;
+        height:70px;
     }
     .masthead{
-        font-size:50px;
+        font-size:60px;
         line-height:50px;
     }
 
@@ -281,7 +281,7 @@ tspan{
 
     }
     .top-img{
-        height:50px;
+        height:60px;
     }
     .top-img-right{
         display:inline-block;
