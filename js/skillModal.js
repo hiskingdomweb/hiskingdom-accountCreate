@@ -45,7 +45,7 @@ function loadSkills(skills){
       })
     }
     var usertable;
-    $.getJSON("/rest/accountCreate/listSkills",function(data){
+    $.getJSON("/accountCreate/listSkills",function(data){
         skillsHTML = "";
         skillChecklists = "";
         $.each(data.statements, function (key,category) {
