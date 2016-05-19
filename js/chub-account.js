@@ -14,6 +14,11 @@ $(document).ready(function(){
         })
         $('#primaryChurchOrg').html(orgHTML);
     })
+    $.getJSON('/accountCreate/getServeTogetherCount', function(data){
+        $('#signedUpCount').html("<h3># of people signed up:"+data.statements.signedUpCount+"</h3>");
+    })
+
+
 });
 
 $('#addSkills').click(function(){
