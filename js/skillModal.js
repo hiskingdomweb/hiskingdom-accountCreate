@@ -52,7 +52,7 @@ function loadSkills(skills){
       })
     }
     var usertable;
-    $.getJSON("/rest/accountCreate/listRemainingSkills",function(data){
+    $.getJSON("/accountCreate/listRemainingSkills",function(data){
         skillsHTML = "";
         skillChecklists = "";
         $.each(data.statements, function (key,category) {
