@@ -2,6 +2,7 @@ var inSkill = false;
 
 $('#assignSkill').click(function(){
   $('#backButtonSkills').hide();
+  $('#closeSkills').hide();
   inSkill = false;
   $('#skillBox').show();
   $('#skillChecklists').show();
@@ -14,9 +15,15 @@ $('#assignSkill').click(function(){
         keyboard: false,
         backdrop: 'static',
     });
+  $.each($('.skillButton'),function(key,button){
+    if($("#"+$(this).text().replace(/\s/g, '')+"Skill").length==0){
+      $(this).prop('disabled',true);
+    }
+    
+  })
   
   $('.skillButton').click(function(){
-        if(!inSkill){
+        if(!inSkill && !$(this).prop('disabled')){
           $('.skillButton').each(function(){
             $(this).fadeOut('fast'); 
           })
@@ -45,7 +52,7 @@ function loadSkills(skills){
       })
     }
     var usertable;
-    $.getJSON("/accountCreate/listSkills",function(data){
+    $.getJSON("/rest/accountCreate/listRemainingSkills",function(data){
         skillsHTML = "";
         skillChecklists = "";
         $.each(data.statements, function (key,category) {
