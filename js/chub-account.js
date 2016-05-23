@@ -8,7 +8,7 @@ $(document).ready(function(){
     $('#skillIds').val('');
     loadSkills();
     $.getJSON('/accountCreate/listChurchOrgs', function(data){
-        orgHTML = '<option selected disabled>-</option>';
+        orgHTML = '';
         $.each(data.statements, function (key,val){
           orgHTML += '<option value="'+val.id+'">'+val.orgName+'</option>'; 
         })
