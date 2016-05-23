@@ -13,6 +13,7 @@ $(document).ready(function(){
           orgHTML += '<option value="'+val.id+'">'+val.orgName+'</option>'; 
         })
         $('#primaryChurchOrg').html(orgHTML);
+        $('#primaryChurchOrg').val('1462845473660941');
     })
     $.getJSON('/accountCreate/getServeTogetherCount', function(data){
         $('#signedUpCount').html("<h3># of people signed up: "+data.statements.signedUpCount+"</h3>");
