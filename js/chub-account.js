@@ -69,6 +69,7 @@ function submitNewPassword(){
     name = $("#name").val();
     phone = $("#phone").val();
     email = $("#email").val();
+    emailCheck = $("#emailCheck").val();
     churchOrg = $('#primaryChurchOrg').val();
     skills = $('#skillIds').val();
     password = $("#password").val();
@@ -77,6 +78,10 @@ function submitNewPassword(){
     valid = true;
     if(!email || email.length==0){
         validationString+="Please enter an email address.<br>";
+        valid = false;
+    }
+    if(email != emailCheck){
+        validationString+="Email addresses do not match.<br>";
         valid = false;
     }
     if(!phone || phone.length==0){
