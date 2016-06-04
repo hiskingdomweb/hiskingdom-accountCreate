@@ -75,6 +75,7 @@ function submitNewPassword(){
     password = $("#password").val();
     passwordCheck = $("#passwordCheck").val()
     validationString = "";
+    phone = phone.replace(/\D/g,'');
     valid = true;
     if(!email || email.length==0){
         validationString+="Please enter an email address.<br>";
@@ -84,8 +85,8 @@ function submitNewPassword(){
         validationString+="Email addresses do not match.<br>";
         valid = false;
     }
-    if(!phone || phone.length==0){
-        validationString+="Please enter a phone number.<br>";
+    if(!phone || phone.length!=10){
+        validationString+="Please enter a phone number and make sure it is 10 digits.<br>";
         valid = false;
     }
     if(skillsArray.length==0){
