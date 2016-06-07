@@ -77,6 +77,10 @@ function submitNewPassword(){
     validationString = "";
     phone = phone.replace(/\D/g,'');
     valid = true;
+    if(!name|| name.length==0){
+        validationString+="Please enter a name.<br>";
+        valid = false;
+    }
     if(!email || email.length==0){
         validationString+="Please enter an email address.<br>";
         valid = false;
