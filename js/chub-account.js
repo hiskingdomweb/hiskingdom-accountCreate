@@ -4,8 +4,10 @@ $(document).ready(function(){
     $("#name").val('');
     $("#phone").val('');
     $("#email").val('');
+    $("#emailCheck").val('');
     $('#primaryChurchOrg').val('');
     $('#skillIds').val('');
+    $("#termsChecked").prop('checked',false);
     loadSkills();
     $.getJSON('/accountCreate/listChurchOrgs', function(data){
         orgHTML = '';
