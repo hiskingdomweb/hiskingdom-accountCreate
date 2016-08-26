@@ -155,5 +155,6 @@ function submitNewPassword(){
 }
 
 $("#loginLink").click(function(){
-    window.location.href = "https://hiskingdom.needsgap.com/serveTogether/index.html?email="+ $('#email').val();
+    //window.location.href = "https://hiskingdom.needsgap.com/serveTogether/index.html?email="+ $('#email').val();
+    window.location.href = "https://hiskingdom.needsgap.com/member/index.html?email="+ $('#email').val();
 })
